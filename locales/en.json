@@ -1,0 +1,16 @@
+{
+    "home": {
+        "title_top": "Bienvenidos!",
+        "title_bottom": "Welcome!"
+    },
+    "nav": {
+        "home": "Home",
+        "menu": "Menu",
+        "contact": "Contact"
+    },
+    "links": {
+        "home": "/en/",
+        "menu": "/en/menu/",
+        "contact": "/en/contact/"
+    }
+}
