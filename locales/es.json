@@ -26,5 +26,157 @@
         "hours": "Horas",
         "days": "Lunes - Sabado",
         "locations": "Ubicaciónes"
-    }
+    },
+    "menu": {
+        "special": "Especiales",
+        "entree": "Platos",
+        "appetizer": "Aperitivos",
+        "carte": "A la carta",
+        "drink": "Bebidas"
+    },
+    "specials": [
+        {
+          "name": "Choripollo",
+          "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalda.",
+          "price": "$12.00",
+          "category": "Special"
+        },
+        {
+          "name": "Quesabirria",
+          "description": "Tres tacos rellenos de birria y queso derretido decorados con cilantro y acompañados por salsa casera.",
+          "price": "$10.00",
+          "category": "Special"
+        }
+      ],
+      "carte": [
+        {
+          "name": "Tacos",
+          "description": "Tacos clásicos con carne de elección. Guarnición de cilantro y ajo acompañado por limón y rábano.",
+          "price": "$2.50",
+          "category": "A la carte",
+          "types": [
+            "Asada [+$0.50]",
+            "Birria [+$0.50]",
+            "Al Pastor",
+            "Pollo",
+            "Chorizo",
+            "Chori Pollo",
+            "Lengua",
+            "Tripa"
+          ]
+        },
+        {
+          "name": "Tortas",
+          "description": "El sándwich nacional de México con la carne y rellenos que guste. Acompañado por limón.",
+          "price": "$9.00",
+          "category": "A la carte",
+          "types": [
+            "Chori Pollo",
+            "Pollo",
+            "Chorizo",
+            "Asada",
+            "Lengua",
+            "Al Pastor"
+          ]
+        },
+        {
+          "name": "Burritos Grandes",
+          "description": "Un burrito grande y abundante, relleno de carne, salsa, lechuga, y crema agria. Acompañado por limón y rábano.",
+          "price": "$12.00",
+          "category": "A la carte",
+          "types": [
+            "Chori Pollo",
+            "Pollo",
+            "Chorizo",
+            "Asada",
+            "Lengua",
+            "Al Pastor"
+          ]
+        },
+        {
+          "name": "Quesadilla",
+          "description": "Una quesadilla clásica rellena de carne de elección y acompañada de arroz.",
+          "price": "$8.00",
+          "category": "A la carte",
+          "types": [
+            "Queso ($5.00)",
+            "Chori Pollo",
+            "Pollo",
+            "Chorizo",
+            "Asada",
+            "Lengua",
+            "Al Pastor"
+          ]
+        }
+      ],
+      "entrees": [
+        {
+          "name": "Happy Burritos",
+          "description": "Dos burritos medianos con carne de elección acompañados por ensalada y arroz.",
+          "price": "$12.00",
+          "category": "Entree",
+          "types": [
+            "Chori Pollo",
+            "Pollo",
+            "Chorizo",
+            "Asada",
+            "Lengua",
+            "Al Pastor"
+          ]
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "description": "Tres enchiladas de pollo con salsa verde acompañadas por ensalada y arroz.",
+          "price": "$11.50",
+          "category": "Entree"
+        },
+        {
+          "name": "Quesadilla Fajita",
+          "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
+          "price": "$11.50",
+          "category": "Entree"
+        },
+        {
+          "name": "Chimichanga",
+          "description": "Un burrito frito relleno con la carne que guste, acompañado con ensalada y arroz.",
+          "price": "$12.00",
+          "category": "Entree",
+          "types": [
+            "Chori Pollo",
+            "Pollo",
+            "Chorizo",
+            "Asada",
+            "Lengua",
+            "Al Pastor"
+          ]
+        },
+        {
+          "name": "Pollo Loco",
+          "description": "Pollo marinado con queso y ajo. Acompañado por arroz, ensalada, y pico de gallo.",
+          "price": "$12.00",
+          "category": "Entree"
+        }
+      ],
+      "appetizers": [
+        {
+          "name": "Choripapas",
+          "description": "Una orden de papas fritas cubiertas de chorizo y queso.",
+          "price": "$11.00",
+          "category": "Appetizer"
+        },
+        {
+          "name": "Camarones Cucaracha",
+          "description": "Camarones enteros picantes y fritos con mejillones, pepino, y limón.",
+          "price": "$16.00",
+          "category": "Appetizer"
+        }
+      ],
+      "drinks": [
+        {
+            "name": "Jarritos",
+            "description": "El refresco clásico mexicano!",
+            "price": "$3.00",
+            "category": "Drink"
+        }
+      ]
 }

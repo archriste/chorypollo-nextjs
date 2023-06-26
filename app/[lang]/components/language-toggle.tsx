@@ -14,7 +14,7 @@ export default function LanguageToggle() {
   };
 
   return (
-    <div className="flex justify-around w-2/3 font-londrina_solid text-2xl text-white lg:text-3xl">
+    <div className="flex justify-center w-2/3 font-londrina_solid text-2xl text-white lg:text-3xl">
       {i18n.locales.map((locale) => {
         return (
           <div key={locale} className="opacity-50 hover:opacity-100 transition">

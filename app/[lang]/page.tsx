@@ -58,11 +58,9 @@ export default async function Home({
             <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
               {dictionary.about.p3}
             </span>
-            <div className="h-20 w-3/4 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2">
+            <div className="h-20 my-10 w-3/4 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2 text-center font-londrina_solid text-4xl lg:text-5xl">
               <Link href={dictionary.links.menu}>
-                <OutlinedText fontsize="48px">
                   {dictionary.about.menulink}
-                </OutlinedText>
               </Link>
             </div>
           </div>

@@ -18,7 +18,7 @@
     "intro": "Who are we?",
     "p1": "We're Tacos El Chorypollo: Des Moines' best kept culinary secret!",
     "p2": "Thanks to being a small family operation, we can ensure that every dish is made to order just how you like it.",
-    "p3": "No shortcuts, pre-packaged ingredients, or marketing buzzwords here; we just believe in authentic, homemade Mexican street food that lets the flavors do the talking.",
+    "p3": "No shortcuts, pre-packaged ingredients, or over-the-top marketing here; we just believe in authentic, homemade Mexican street food that lets the flavors do the talking.",
     "p4": "",
     "menulink": "Click here to see the menu!"
   },
@@ -26,5 +26,157 @@
     "hours": "Hours:",
     "days": "Monday - Saturday",
     "locations": "Locations:"
-  }
+  },
+  "menu": {
+    "special": "Specials",
+    "entree": "Entrees",
+    "appetizer": "Appetizers",
+    "carte": "A la carte",
+    "drink": "Drinks"
+  },
+  "specials": [
+    {
+      "name": "Choripollo",
+      "description": "Marinated chicken smothered in melted cheese and chorizo. Served with rice and salad.",
+      "price": "$12.00",
+      "category": "Special"
+    },
+    {
+      "name": "Quesabirria",
+      "description": "Three golden fried tacos made with juicy birria, melted cheese, and cilantro with a delicious house-made dip.",
+      "price": "$10.00",
+      "category": "Special"
+    }
+  ],
+  "carte": [
+    {
+      "name": "Tacos",
+      "description": "Classic street tacos with your choice of meat topped with cilantro and onions with chopped lime and radish on the side.",
+      "price": "$2.50",
+      "category": "A la carte",
+      "types": [
+        "Asada (Steak) [+$0.50]",
+        "Birria [+$0.50]",
+        "Al Pastor (Pork)",
+        "Chicken",
+        "Chorizo",
+        "Chori Pollo (Chicken & Chorizo)",
+        "Lengua (Beef Tongue)",
+        "Tripe (Beef Stomach)"
+      ]
+    },
+    {
+      "name": "Tortas",
+      "description": "The national Mexican sandwich, made with your choice of meat and toppings with lime on the side.",
+      "price": "$9.00",
+      "category": "A la carte",
+      "types": [
+        "Chori Pollo (Chicken & Chorizo)",
+        "Chicken",
+        "Chorizo",
+        "Asada (Steak)",
+        "Lengua (Beef Tongue)",
+        "Al Pastor (Pork)"
+      ]
+    },
+    {
+      "name": "Big Burritos",
+      "description": "A big burrito loaded with your choice meat and all the fixings. Served with lime and radish on the side.",
+      "price": "$12.00",
+      "category": "A la carte",
+      "types": [
+        "Chori Pollo (Chicken & Chorizo)",
+        "Chicken",
+        "Chorizo",
+        "Asada (Steak)",
+        "Lengua (Beef Tongue)",
+        "Al Pastor (Pork)"
+      ]
+    },
+    {
+      "name": "Quesadilla",
+      "description": "A folded flour tortilla stuffed with your choice of meat and cheese with rice on the side.",
+      "price": "$8.00",
+      "category": "A la carte",
+      "types": [
+        "Cheese ($5.00)",
+        "Chori Pollo (Chicken & Chorizo)",
+        "Chicken",
+        "Chorizo",
+        "Asada (Steak)",
+        "Lengua (Beef Tongue)",
+        "Al Pastor (Pork)"
+      ]
+    }
+  ],
+  "entrees": [
+    {
+      "name": "Happy Burritos",
+      "description": "Two medium burritos topped with sauce and your choice of meat, served with salad and rice.",
+      "price": "$12.00",
+      "category": "Entree",
+      "types": [
+        "Chori Pollo (Chicken & Chorizo)",
+        "Chicken",
+        "Chorizo",
+        "Asada (Steak)",
+        "Lengua (Beef Tongue)",
+        "Al Pastor (Pork)"
+      ]
+    },
+    {
+      "name": "Enchiladas Verdes",
+      "description": "Three chicken enchiladas made with salsa verde and garnish. Served with salad and rice.",
+      "price": "$11.50",
+      "category": "Entree"
+    },
+    {
+      "name": "Quesadilla Fajita",
+      "description": "A quesadilla stuffed with fajita meat and cheese, served with salad and rice.",
+      "price": "$11.50",
+      "category": "Entree"
+    },
+    {
+      "name": "Chimichanga",
+      "description": "A classic tex-mex fried burrito with your choice of meat served with salad and rice.",
+      "price": "$12.00",
+      "category": "Entree",
+      "types": [
+        "Chori Pollo (Chicken & Chorizo)",
+        "Chicken",
+        "Chorizo",
+        "Asada (Steak)",
+        "Lengua (Beef Tongue)",
+        "Al Pastor (Pork)"
+      ]
+    },
+    {
+      "name": "Pollo Loco",
+      "description": "Marinated chicken covered with cheese and onions. Served with rice, salad, and pico de gallo.",
+      "price": "$12.00",
+      "category": "Entree"
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Choripapas",
+      "description": "An order of fresh french fries smothered in cheese and chorizo.",
+      "price": "$11.00",
+      "category": "Appetizer"
+    },
+    {
+      "name": "Camarones Cucaracha",
+      "description": "Spicy, fried shell-on shrimp and mussels garnished with cucumber and lime.",
+      "price": "$16.00",
+      "category": "Appetizer"
+    }
+  ],
+  "drinks": [
+    {
+        "name": "Jarritos",
+        "description": "The classic Mexican soda!",
+        "price": "$3.00",
+        "category": "Drink"
+    }
+  ]
 }

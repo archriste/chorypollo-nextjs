@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo_src from "@/public/chorypollo-logo.png";
 import NavLinks from "./navlinks";
+import LanguageToggle from "./language-toggle";
 
 export default function Header({ dictionary }: { dictionary: Record<string, any> }) {
   return (
