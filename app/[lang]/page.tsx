@@ -58,7 +58,7 @@ export default async function Home({
             <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
               {dictionary.about.p3}
             </span>
-            <div className="h-20 my-10 w-3/4 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2 text-center font-londrina_solid text-4xl lg:text-5xl">
+            <div className=" h-20 mt-5 w-3/4 text-stone-100 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2 text-center font-londrina_solid text-4xl lg:text-5xl">
               <Link href={dictionary.links.menu}>
                   {dictionary.about.menulink}
               </Link>
@@ -66,7 +66,7 @@ export default async function Home({
           </div>
 
           {/* Carousel */}
-          <div className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5 lg:top-10">
+          <div className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5">
             <div className="relative h-full w-full">
               <MainCarousel loop={true}>
                 {images.map((image, key) => {
@@ -99,9 +99,9 @@ export default async function Home({
             <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.locations}
             </span>
-            <div className="mb-10 flex w-full flex-col justify-around lg:flex-row">
+            <div className="mb-10 flex w-full flex-col justify-evenly  lg:flex-row">
               <div className="flex flex-col items-center py-5">
-                <div className="pb font-karla text-2xl text-stone-100 lg:text-3xl">
+                <div className="pb-3 font-karla text-center text-2xl text-stone-100 lg:text-3xl">
                   1330 Keosauqua Way
                   <br />
                   <a className="text-3xl font-bold" href="tel:5157787513">
@@ -118,7 +118,7 @@ export default async function Home({
                 ></iframe>
               </div>
               <div className="flex flex-col items-center py-5">
-                <div className="pb-3 font-karla text-2xl text-stone-100 lg:text-3xl">
+                <div className="pb-3 font-karla text-center text-2xl text-stone-100 lg:text-3xl">
                   2427 E University Ave
                   <br />
                   <a className="text-3xl font-bold" href="tel:5154215652">

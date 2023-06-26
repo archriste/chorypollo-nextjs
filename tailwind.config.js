@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      flexGrow: {
+        2: "2",
+      },
       fontFamily: {
         londrina_solid: ["var(--font-londrina-solid)"],
         londrina_outline: ["var(--font-londrina-outline)"],

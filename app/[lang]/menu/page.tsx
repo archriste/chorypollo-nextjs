@@ -4,7 +4,7 @@ import type { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionary";
 import ScrollIndicator from "../components/scroll-indicator";
 import LanguageToggle from "../components/language-toggle";
-import MenuGrid from "../components/menu-grid";
+import { LooseMenuGrid, StructureMenuGrid } from "../components/menu-grid";
 
 export default async function Menu({
   params: { lang },
@@ -24,7 +24,7 @@ export default async function Menu({
             <LanguageToggle />
           </div>
           <div className="my-10">
-            <MenuGrid dictionary={dictionary} />
+            <StructureMenuGrid dictionary={dictionary} />
           </div>
         </div>
       </ScrollIndicator>

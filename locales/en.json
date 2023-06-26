@@ -39,7 +39,8 @@
       "name": "Choripollo",
       "description": "Marinated chicken smothered in melted cheese and chorizo. Served with rice and salad.",
       "price": "$12.00",
-      "category": "Special"
+      "category": "Special",
+      "image": "choripollo"
     },
     {
       "name": "Quesabirria",
