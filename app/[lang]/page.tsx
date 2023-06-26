@@ -32,7 +32,7 @@ export default async function Home({
             id="title"
             className="flex h-[60px] select-none flex-col items-center overflow-hidden lg:h-[72px]"
           >
-            <span className="inline-block w-full animate-title_slide text-center font-londrina_solid text-[60px] leading-none text-white lg:text-[72px]">
+            <span className="inline-block w-full animate-title_slide text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:text-[72px]">
               {dictionary.home.title_top}
               <br />
               {dictionary.home.title_bottom}
@@ -46,16 +46,16 @@ export default async function Home({
 
           {/* Description */}
           <div className="my-10 flex flex-col items-center justify-center">
-            <span className="p-3 text-center font-londrina_solid text-4xl text-white sm:w-2/3 lg:text-5xl">
+            <span className="p-3 text-center font-londrina_solid text-4xl text-stone-100 sm:w-2/3 lg:text-5xl">
               {dictionary.about.intro}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
               {dictionary.about.p1}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
               {dictionary.about.p2}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
               {dictionary.about.p3}
             </span>
             <div className="h-20 w-3/4 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2">
@@ -92,18 +92,18 @@ export default async function Home({
 
           {/* Location */}
           <div className="flex flex-col items-center justify-center lg:mt-10">
-            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-white lg:text-5xl">
+            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.hours}
             </span>
-            <span className="text-justify font-karla text-xl text-white lg:text-3xl">
+            <span className="text-justify font-karla text-xl text-stone-100 lg:text-3xl">
               {dictionary.location.days}: 10:30am - 9:00pm
             </span>
-            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-white lg:text-5xl">
+            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.locations}
             </span>
             <div className="mb-10 flex w-full flex-col justify-around lg:flex-row">
               <div className="flex flex-col items-center py-5">
-                <div className="pb font-karla text-2xl text-white lg:text-3xl">
+                <div className="pb font-karla text-2xl text-stone-100 lg:text-3xl">
                   1330 Keosauqua Way
                   <br />
                   <a className="text-3xl font-bold" href="tel:5157787513">
@@ -120,7 +120,7 @@ export default async function Home({
                 ></iframe>
               </div>
               <div className="flex flex-col items-center py-5">
-                <div className="pb-3 font-karla text-2xl text-white lg:text-3xl">
+                <div className="pb-3 font-karla text-2xl text-stone-100 lg:text-3xl">
                   2427 E University Ave
                   <br />
                   <a className="text-3xl font-bold" href="tel:5154215652">
