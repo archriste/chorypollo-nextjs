@@ -17,7 +17,7 @@ export default async function Menu({
       <Header dictionary={dictionary} />
       <ScrollIndicator>
         <div className="my-20">
-          <div className="inline-block h-[60px] lg:h-[72px] w-full text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:text-[72px]">
+          <div className="inline-block h-[60px] lg:h-[72px] w-full text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:text-[72px] outlined">
             {dictionary.nav.menu}
           </div>
           <div className="my-8 flex items-center justify-center">

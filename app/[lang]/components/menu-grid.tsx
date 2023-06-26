@@ -125,7 +125,7 @@ export function StructureMenuGrid({ dictionary }: { dictionary: Record<string, a
         <>
             <div className="flex flex-wrap sm:mx-10 lg:mx-36">
                 <div className="w-full box-border">
-                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center">{dictionary.menu.special}</h2>
+                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center outlined">{dictionary.menu.special}</h2>
                     {dictionary.specials.map((item: any, index: Key) => {
                         return (
                             <div key={index} className="mx-2 my-5  flex flex-col items-left justify-center border p-5 rounded-xl bg-black bg-opacity-10">
@@ -149,7 +149,7 @@ export function StructureMenuGrid({ dictionary }: { dictionary: Record<string, a
                     }
                 </div>
                 <div className="w-full box-border">
-                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center">{dictionary.menu.carte}</h2>
+                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center outlined">{dictionary.menu.carte}</h2>
                     {dictionary.carte.map((item: any, index: Key) => {
                         return (
                             <div key={index} className="mx-2 my-5   flex flex-col items-left justify-center border p-5 rounded-xl bg-black bg-opacity-10">
@@ -171,7 +171,7 @@ export function StructureMenuGrid({ dictionary }: { dictionary: Record<string, a
                     })}
                 </div>
                 <div className="w-full">
-                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center">{dictionary.menu.entree}</h2>
+                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center outlined">{dictionary.menu.entree}</h2>
                     {dictionary.entrees.map((item: any, index: Key) => {
                         return (
                             <div key={index} className="mx-2 my-5   flex flex-col items-left justify-center border p-5 rounded-xl bg-black bg-opacity-10">
@@ -193,7 +193,7 @@ export function StructureMenuGrid({ dictionary }: { dictionary: Record<string, a
                     })}
                 </div>
                 <div className="w-full">
-                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center">{dictionary.menu.appetizer}</h2>
+                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center outlined">{dictionary.menu.appetizer}</h2>
                     {dictionary.appetizers.map((item: any, index: Key) => {
                         return (
                             <div key={index} className="mx-2 my-5   flex flex-col items-left justify-center border p-5 rounded-xl bg-black bg-opacity-10">
@@ -215,7 +215,7 @@ export function StructureMenuGrid({ dictionary }: { dictionary: Record<string, a
                     })}
                 </div>
                 <div className="w-full">
-                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center">{dictionary.menu.drink}</h2>
+                    <h2 className="font-londrina_solid text-5xl lg:text-6xl font-bold text-neutral-50 text-center outlined">{dictionary.menu.drink}</h2>
                     {dictionary.drinks.map((item: any, index: Key) => {
                         return (
                             <div key={index} className="mx-2 my-5 flex flex-col items-left justify-center border p-5 rounded-xl bg-black bg-opacity-10">
