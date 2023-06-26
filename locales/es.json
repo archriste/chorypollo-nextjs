@@ -1,7 +1,8 @@
 {
+    "toggle": "Idioma:",
     "home": {
         "title_top": "Welcome!",
-        "title_bottom": "Bienvenidos!"
+        "title_bottom": "¡Bienvenidos!"
     },
     "nav": {
         "home": "Inicio",
@@ -12,5 +13,18 @@
         "home": "/es/",
         "menu": "/es/menu/",
         "contact": "/es/contact/"
+    },
+    "about": {
+        "intro": "¿Quiénes somos?",
+        "p1": "¡Somos Tacos El Chorypollo, el secreto culinario mejor guardado de Des Moines!",
+        "p2": "Gracias a ser un pequeño negocio familiar, podemos aseguar que cada platillo está hecho a pedido, asi como a usted le guste.",
+        "p3": "Creemos en servir comida autentica casera mexicana hecho sin ataje y con los mejores ingredientes. Es por eso que no necesitamos ni anuncios ni alarde; dejamos que los sabores hablen por sí mismos.",
+        "p4": "",
+        "menulink": "¡Haz clic aquí para ver el menú!"
+    },
+    "location": {
+        "hours": "Horas",
+        "days": "Lunes - Sabado",
+        "locations": "Ubicaciónes"
     }
 }

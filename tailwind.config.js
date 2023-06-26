@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         londrina_solid: ["var(--font-londrina-solid)"],
         londrina_outline: ["var(--font-londrina-outline)"],
+        karla: ["var(--font-karla)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

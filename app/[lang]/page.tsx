@@ -1,6 +1,18 @@
 import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
+import Link from "next/link";
+import Image from "next/image";
 import Header from "./components/header";
+import MainCarousel from "./components/main-carousel";
+import tacos from "@/public/tacos.jpeg";
+import fries from "@/public/fries.jpeg";
+import choripollo from "@/public/choripollo.jpeg";
+import quesibirria from "@/public/quesibirria.jpeg";
+import LanguageToggle from "./components/language-toggle";
+import OutlinedText from "./components/outlined-text";
+import ScrollIndicator from "./components/scroll-indicator";
+
+const images = [tacos, fries, choripollo, quesibirria];
 
 export default async function Home({
   params: { lang },
@@ -10,12 +22,124 @@ export default async function Home({
   const dictionary = await getDictionary(lang);
   return (
     <>
+      {/* Header */}
       <Header dictionary={dictionary} />
-      <div>
-        <div id="title" className="border border-white h-[52px] overflow-hidden select-none">
-          <span className="animate-title_slide text-5xl leading-none inline-block w-full text-center text-white font-londrina_solid">{dictionary.home.title_top}<br />{dictionary.home.title_bottom}</span>
+      <ScrollIndicator>
+        {/* Main */}
+        <div className="mt-20">
+          {/* Title */}
+          <div
+            id="title"
+            className="flex h-[60px] select-none flex-col items-center overflow-hidden lg:h-[72px]"
+          >
+            <span className="inline-block w-full animate-title_slide text-center font-londrina_solid text-[60px] leading-none text-white lg:text-[72px]">
+              {dictionary.home.title_top}
+              <br />
+              {dictionary.home.title_bottom}
+            </span>
+          </div>
+
+          {/* Language select */}
+          <div className="my-8 flex items-center justify-center">
+            <LanguageToggle />
+          </div>
+
+          {/* Description */}
+          <div className="my-10 flex flex-col items-center justify-center">
+            <span className="p-3 text-center font-londrina_solid text-4xl text-white sm:w-2/3 lg:text-5xl">
+              {dictionary.about.intro}
+            </span>
+            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+              {dictionary.about.p1}
+            </span>
+            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+              {dictionary.about.p2}
+            </span>
+            <span className="p-3 text-justify font-karla text-lg text-white sm:w-2/3 lg:text-3xl">
+              {dictionary.about.p3}
+            </span>
+            <div className="h-20 w-3/4 border-b border-white border-opacity-0 transition hover:border-opacity-100 md:w-1/2">
+              <Link href={dictionary.links.menu}>
+                <OutlinedText fontsize="48px">
+                  {dictionary.about.menulink}
+                </OutlinedText>
+              </Link>
+            </div>
+          </div>
+
+          {/* Carousel */}
+          <div className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5 lg:top-10">
+            <div className="relative h-full w-full">
+              <MainCarousel loop={true}>
+                {images.map((image, key) => {
+                  return (
+                    <div
+                      key={key}
+                      className="relative h-[350px] max-w-[400px] flex-[0_0_100%] lg:h-[480px] lg:max-w-[500px]"
+                    >
+                      <Image
+                        src={image}
+                        alt="logo"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  );
+                })}
+              </MainCarousel>
+            </div>
+          </div>
+
+          {/* Location */}
+          <div className="flex flex-col items-center justify-center lg:mt-10">
+            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-white lg:text-5xl">
+              {dictionary.location.hours}
+            </span>
+            <span className="text-justify font-karla text-xl text-white lg:text-3xl">
+              {dictionary.location.days}: 10:30am - 9:00pm
+            </span>
+            <span className="m-5 p-3 text-justify font-londrina_solid text-4xl text-white lg:text-5xl">
+              {dictionary.location.locations}
+            </span>
+            <div className="mb-10 flex w-full flex-col justify-around lg:flex-row">
+              <div className="flex flex-col items-center py-5">
+                <div className="pb font-karla text-2xl text-white lg:text-3xl">
+                  1330 Keosauqua Way
+                  <br />
+                  <a className="text-3xl font-bold" href="tel:5157787513">
+                    515-778-7513
+                  </a>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.8428480344805!2d-93.63776692428542!3d41.59428238313689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee99109adf953f%3A0xdc163346a141041d!2s1330%20Keosauqua%20Way%2C%20Des%20Moines%2C%20IA%2050309!5e0!3m2!1sen!2sus!4v1687746601101!5m2!1sen!2sus"
+                  allowFullScreen={false}
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div className="flex flex-col items-center py-5">
+                <div className="pb-3 font-karla text-2xl text-white lg:text-3xl">
+                  2427 E University Ave
+                  <br />
+                  <a className="text-3xl font-bold" href="tel:5154215652">
+                    515-421-5652
+                  </a>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.5670749135165!2d-93.57384012428514!3d41.600247582765476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9765f869830b%3A0xf9bc93bc3d6c3a1!2s2427%20E%20University%20Ave%2C%20Des%20Moines%2C%20IA%2050317!5e0!3m2!1sen!2sus!4v1687746720058!5m2!1sen!2sus"
+                  allowFullScreen={false}
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </ScrollIndicator>
     </>
   );
 }

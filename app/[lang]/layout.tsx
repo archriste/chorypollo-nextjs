@@ -5,6 +5,7 @@ import Head from "./head";
 import Header from "./components/header";
 import { Londrina_Solid } from "next/font/google";
 import { Londrina_Outline } from "next/font/google";
+import { Karla } from "next/font/google";
 
 const londrina_solid = Londrina_Solid({
     weight: ['400'],
@@ -20,6 +21,13 @@ const londrina_outline = Londrina_Outline({
     variable: '--font-londrina-outline'
 })
 
+const karla = Karla({
+    weight: ['400'],
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-karla'
+})
+
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'es' }];
 }
@@ -32,7 +40,7 @@ export default function RootLayout({
   params: { lang: string };
 }) {
   return (
-    <html className={`h-full ${londrina_outline.variable} ${londrina_solid.variable}`} lang={params.lang}>
+    <html className={`h-full ${londrina_outline.variable} ${londrina_solid.variable} ${karla.variable}`} lang={params.lang}>
       <Head />
       <body className="h-full w-full absolute top-0 left-0 overscroll-none">
         <PageLayout>{children}</PageLayout>

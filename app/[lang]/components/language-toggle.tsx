@@ -14,16 +14,18 @@ export default function LanguageToggle() {
   };
 
   return (
-    <div>
-      <ul>
-        {i18n.locales.map((locale) => {
-          return (
-            <li key={locale}>
-              <Link href={redirectedPathName(locale)}>{locale}</Link>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="flex justify-around w-2/3 font-londrina_solid text-2xl text-white lg:text-3xl">
+      {i18n.locales.map((locale) => {
+        return (
+          <div key={locale} className="opacity-50 hover:opacity-100 transition">
+            <Link href={redirectedPathName(locale)}>
+              <span className="mx-5 rounded-lg border border-white p-2">
+                {locale == "en" ? "English" : "Español"}
+              </span>
+            </Link>
+          </div>
+        );
+      })}
     </div>
   );
 }

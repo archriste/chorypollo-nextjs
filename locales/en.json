@@ -1,16 +1,30 @@
 {
-    "home": {
-        "title_top": "Bienvenidos!",
-        "title_bottom": "Welcome!"
-    },
-    "nav": {
-        "home": "Home",
-        "menu": "Menu",
-        "contact": "Contact"
-    },
-    "links": {
-        "home": "/en/",
-        "menu": "/en/menu/",
-        "contact": "/en/contact/"
-    }
+  "toggle": "Language:",
+  "home": {
+    "title_top": "¡Bienvenidos!",
+    "title_bottom": "Welcome!"
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "contact": "Contact"
+  },
+  "links": {
+    "home": "/en/",
+    "menu": "/en/menu/",
+    "contact": "/en/contact/"
+  },
+  "about": {
+    "intro": "Who are we?",
+    "p1": "We're Tacos El Chorypollo: Des Moines' best kept culinary secret!",
+    "p2": "Thanks to being a small family operation, we can ensure that every dish is made to order just how you like it.",
+    "p3": "No shortcuts, pre-packaged ingredients, or marketing buzzwords here; we just believe in authentic, homemade Mexican street food that lets the flavors do the talking.",
+    "p4": "",
+    "menulink": "Click here to see the menu!"
+  },
+  "location": {
+    "hours": "Hours:",
+    "days": "Monday - Saturday",
+    "locations": "Locations:"
+  }
 }

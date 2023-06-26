@@ -12,10 +12,6 @@ export default async function NavLinks({ dictionary }: { dictionary: Record<stri
         <Link className="flex h-full w-full justify-center" href={dictionary.links.menu}>
           <OutlinedText fontsize="24px">{dictionary.nav.menu}</OutlinedText>
         </Link>
-        <Link className="flex h-full w-full justify-center" href={dictionary.links.contact}>
-          <OutlinedText fontsize="24px">{dictionary.nav.contact}</OutlinedText>
-        </Link>
-        <LanguageToggle />
       </div>
   );
 }
