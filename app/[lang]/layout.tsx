@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html className={`h-full ${londrina_outline.variable} ${londrina_solid.variable} ${karla.variable}`} lang={params.lang}>
       <Head />
-      <body className="h-full w-full absolute top-0 left-0 overscroll-none">
+      <body className="h-full w-full overscroll-none">
         <PageLayout>{children}</PageLayout>
       </body>
     </html>
