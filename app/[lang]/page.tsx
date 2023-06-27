@@ -44,17 +44,17 @@ export default async function Home({
           </div>
 
           {/* Description */}
-          <div className="my-10 flex flex-col items-center justify-center">
+          <div className="my-10 flex flex-col items-center justify-center lg:mx-20">
             <span className="p-3 text-center font-londrina_solid text-4xl text-stone-100 sm:w-2/3 lg:text-5xl outlined">
               {dictionary.about.intro}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
               {dictionary.about.p1}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
               {dictionary.about.p2}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-3xl">
+            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
               {dictionary.about.p3}
             </span>
             <div className="outlined mt-5 h-20 w-3/4 border-b border-white border-opacity-0 text-center font-londrina_solid text-4xl text-stone-100 transition hover:border-opacity-100 md:w-1/2 lg:text-5xl">
