@@ -18,7 +18,7 @@ export default function LanguageToggle() {
       {i18n.locales.map((locale) => {
         return (
           <div key={locale} className="opacity-50 hover:opacity-100 transition">
-            <Link href={redirectedPathName(locale)}>
+            <Link href={redirectedPathName(locale)} className="active:bg-transparent">
               <span className="mx-5 rounded-lg border border-white p-2">
                 {locale == "en" ? "English" : "Español"}
               </span>
