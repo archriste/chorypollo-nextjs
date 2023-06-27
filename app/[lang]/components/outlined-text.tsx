@@ -10,7 +10,7 @@ export default function OutlinedText({
   return (
     <>
     <div className="relative h-full w-full">
-        <span className={`absolute h-full w-full flex align-center justify-center items-center font-londrina_solid text-white text-3xl lg:text-4xl font-bold outlined`}>{children}</span>
+        <span className={`absolute h-full w-full flex align-center justify-center items-center font-londrina_solid text-white text-3xl lg:text-4xl outlined`}>{children}</span>
     </div>
     </>
   );

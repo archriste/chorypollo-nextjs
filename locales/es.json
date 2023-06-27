@@ -32,20 +32,23 @@
         "entree": "Platos",
         "appetizer": "Aperitivos",
         "carte": "A la carta",
-        "drink": "Bebidas"
+        "drink": "Bebidas",
+        "touch": "¡Pulsa para expandir los elementos del menú!"
     },
     "specials": [
         {
           "name": "Choripollo",
-          "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalda.",
+          "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalada.",
           "price": "$12.00",
-          "category": "Special"
+          "category": "Special",
+          "image": "choripollo"
         },
         {
           "name": "Quesabirria",
           "description": "Tres tacos rellenos de birria y queso derretido decorados con cilantro y acompañados por salsa casera.",
           "price": "$10.00",
-          "category": "Special"
+          "category": "Special",
+          "image": "quesibirria"
         }
       ],
       "carte": [
@@ -63,7 +66,8 @@
             "Chori Pollo",
             "Lengua",
             "Tripa"
-          ]
+          ],
+          "image": "tacos"
         },
         {
           "name": "Tortas",
@@ -106,7 +110,8 @@
             "Asada",
             "Lengua",
             "Al Pastor"
-          ]
+          ],
+          "image": "quesadilla"
         }
       ],
       "entrees": [
@@ -122,19 +127,22 @@
             "Asada",
             "Lengua",
             "Al Pastor"
-          ]
+          ],
+          "image": "happyburritos"
         },
         {
           "name": "Enchiladas Verdes",
           "description": "Tres enchiladas de pollo con salsa verde acompañadas por ensalada y arroz.",
           "price": "$11.50",
-          "category": "Entree"
+          "category": "Entree",
+          "image": "enchiladas"
         },
         {
           "name": "Quesadilla Fajita",
           "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
           "price": "$11.50",
-          "category": "Entree"
+          "category": "Entree",
+          "image": "quesadillafajita"
         },
         {
           "name": "Chimichanga",
@@ -162,13 +170,15 @@
           "name": "Choripapas",
           "description": "Una orden de papas fritas cubiertas de chorizo y queso.",
           "price": "$11.00",
-          "category": "Appetizer"
+          "category": "Appetizer",
+          "image": "fries"
         },
         {
           "name": "Camarones Cucaracha",
           "description": "Camarones enteros picantes y fritos con mejillones, pepino, y limón.",
           "price": "$16.00",
-          "category": "Appetizer"
+          "category": "Appetizer",
+          "image": "camarones"
         }
       ],
       "drinks": [
@@ -176,7 +186,8 @@
             "name": "Jarritos",
             "description": "El refresco clásico mexicano!",
             "price": "$3.00",
-            "category": "Drink"
+            "category": "Drink",
+            "image": "jarritos"
         }
       ]
 }

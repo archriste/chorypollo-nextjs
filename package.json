@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "0.2.32",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
@@ -31,5 +32,8 @@
     "@types/negotiator": "0.6.1",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "prettier": {
+    "printWidth": 100
   }
 }

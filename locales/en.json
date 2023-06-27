@@ -32,7 +32,8 @@
     "entree": "Entrees",
     "appetizer": "Appetizers",
     "carte": "A la carte",
-    "drink": "Drinks"
+    "drink": "Drinks",
+    "touch": "Tap to expand the menu items!"
   },
   "specials": [
     {
@@ -46,7 +47,8 @@
       "name": "Quesabirria",
       "description": "Three golden fried tacos made with juicy birria, melted cheese, and cilantro with a delicious house-made dip.",
       "price": "$10.00",
-      "category": "Special"
+      "category": "Special",
+      "image": "quesibirria"
     }
   ],
   "carte": [
@@ -56,15 +58,16 @@
       "price": "$2.50",
       "category": "A la carte",
       "types": [
-        "Asada (Steak) [+$0.50]",
+        "Steak [+$0.50]",
+        "Chorizo",
         "Birria [+$0.50]",
         "Al Pastor (Pork)",
         "Chicken",
-        "Chorizo",
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Lengua (Beef Tongue)",
         "Tripe (Beef Stomach)"
-      ]
+      ],
+      "image": "tacos"
     },
     {
       "name": "Tortas",
@@ -72,10 +75,10 @@
       "price": "$9.00",
       "category": "A la carte",
       "types": [
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Chicken",
         "Chorizo",
-        "Asada (Steak)",
+        "Steak",
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
       ]
@@ -86,10 +89,10 @@
       "price": "$12.00",
       "category": "A la carte",
       "types": [
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Chicken",
         "Chorizo",
-        "Asada (Steak)",
+        "Steak",
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
       ]
@@ -101,13 +104,14 @@
       "category": "A la carte",
       "types": [
         "Cheese ($5.00)",
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Chicken",
         "Chorizo",
-        "Asada (Steak)",
+        "Steak",
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
-      ]
+      ],
+      "image": "quesadilla"
     }
   ],
   "entrees": [
@@ -117,25 +121,28 @@
       "price": "$12.00",
       "category": "Entree",
       "types": [
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Chicken",
         "Chorizo",
-        "Asada (Steak)",
+        "Steak",
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
-      ]
+      ],
+      "image": "happyburritos"
     },
     {
       "name": "Enchiladas Verdes",
       "description": "Three chicken enchiladas made with salsa verde and garnish. Served with salad and rice.",
       "price": "$11.50",
-      "category": "Entree"
+      "category": "Entree",
+      "image": "enchiladas"
     },
     {
       "name": "Quesadilla Fajita",
       "description": "A quesadilla stuffed with fajita meat and cheese, served with salad and rice.",
       "price": "$11.50",
-      "category": "Entree"
+      "category": "Entree",
+      "image": "quesadillafajita"
     },
     {
       "name": "Chimichanga",
@@ -143,10 +150,10 @@
       "price": "$12.00",
       "category": "Entree",
       "types": [
-        "Chori Pollo (Chicken & Chorizo)",
+        "Chori Pollo",
         "Chicken",
         "Chorizo",
-        "Asada (Steak)",
+        "Steak",
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
       ]
@@ -163,13 +170,15 @@
       "name": "Choripapas",
       "description": "An order of fresh french fries smothered in cheese and chorizo.",
       "price": "$11.00",
-      "category": "Appetizer"
+      "category": "Appetizer",
+      "image": "fries"
     },
     {
       "name": "Camarones Cucaracha",
-      "description": "Spicy, fried shell-on shrimp and mussels garnished with cucumber and lime.",
+      "description": "Spicy, fried, shell-on shrimp and mussels garnished with cucumber and lime.",
       "price": "$16.00",
-      "category": "Appetizer"
+      "category": "Appetizer",
+      "image": "camarones"
     }
   ],
   "drinks": [
@@ -177,7 +186,8 @@
         "name": "Jarritos",
         "description": "The classic Mexican soda!",
         "price": "$3.00",
-        "category": "Drink"
+        "category": "Drink",
+        "image": "jarritos"
     }
   ]
 }

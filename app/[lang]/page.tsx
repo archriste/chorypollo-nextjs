@@ -9,7 +9,6 @@ import fries from "@/public/fries.jpeg";
 import choripollo from "@/public/choripollo.jpeg";
 import quesibirria from "@/public/quesibirria.jpeg";
 import LanguageToggle from "./components/language-toggle";
-import OutlinedText from "./components/outlined-text";
 import ScrollIndicator from "./components/scroll-indicator";
 
 const images = [tacos, fries, choripollo, quesibirria];
