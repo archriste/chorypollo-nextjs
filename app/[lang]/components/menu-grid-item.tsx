@@ -30,7 +30,7 @@ const imagePicker = (imageName: string) => {
   return images[imageName];
 };
 
-export default function MenuItem({ item, index }: { item: any; index: Key }) {
+export default function MenuItem({ item, key }: { item: any; key: Key }) {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -39,7 +39,7 @@ export default function MenuItem({ item, index }: { item: any; index: Key }) {
 
   return (
     <div
-      key={index}
+      key={key}
       id="item-container"
       onClick={handleClick}
       className={`flex h-40 w-full select-none flex-row gap-2 overflow-hidden border-b border-black border-opacity-30 p-3 text-white transition-all md:h-auto md:min-h-[200px] ${
