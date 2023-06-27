@@ -24,7 +24,8 @@
   },
   "location": {
     "hours": "Hours:",
-    "days": "Monday - Saturday",
+    "week": "Monday - Thursday",
+    "weekend": "Friday - Saturday",
     "locations": "Locations:"
   },
   "menu": {

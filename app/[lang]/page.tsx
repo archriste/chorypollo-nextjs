@@ -93,7 +93,10 @@ export default async function Home({
               {dictionary.location.hours}
             </span>
             <span className="text-justify font-karla text-xl text-stone-100 lg:text-3xl">
-              {dictionary.location.days}: 10:30am - 9:00pm
+              {dictionary.location.week}: 10:30am - 9:30pm
+            </span>
+            <span className="mt-3 text-justify font-karla text-xl text-stone-100 lg:text-3xl">
+              {dictionary.location.weekend}: 10:30am - 10:00pm
             </span>
             <span className="outlined m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.locations}

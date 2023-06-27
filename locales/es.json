@@ -24,7 +24,8 @@
     },
     "location": {
         "hours": "Horas",
-        "days": "Lunes - Sabado",
+        "week": "Lunes - Jueves",
+        "weekend": "Viernes - Sabado",
         "locations": "Ubicaciónes"
     },
     "menu": {
