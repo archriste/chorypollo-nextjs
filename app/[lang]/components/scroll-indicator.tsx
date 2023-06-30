@@ -1,11 +1,7 @@
-'use client'
+"use client";
 import React from "react";
 
-export default function ScrollIndicator({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function ScrollIndicator({ children }: { children: React.ReactNode }) {
   const [scroll, setScroll] = React.useState(0);
 
   const onScrollProgress = () => {
@@ -31,7 +27,7 @@ export default function ScrollIndicator({
 
   return (
     <>
-      <div className="fixed left-0 top-16 h-1 w-full z-10 bg-white">
+      <div className="fixed left-0 top-16 z-10 h-1 w-full bg-white">
         <div style={inlineStyle}></div>
       </div>
       {children}

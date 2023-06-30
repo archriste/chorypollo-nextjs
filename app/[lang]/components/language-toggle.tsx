@@ -14,10 +14,13 @@ export default function LanguageToggle() {
   };
 
   return (
-    <div className="flex justify-center w-2/3 font-londrina_solid text-2xl text-white lg:text-3xl">
+    <div className="flex w-2/3 justify-center font-londrina_solid text-2xl text-white lg:text-3xl">
       {i18n.locales.map((locale) => {
         return (
-          <div key={locale} className="opacity-50 hover:opacity-100 contrast-more:opacity-100 transition">
+          <div
+            key={locale}
+            className="opacity-50 transition hover:opacity-100 contrast-more:opacity-100"
+          >
             <Link href={redirectedPathName(locale)} className="active:bg-transparent">
               <span className="mx-5 rounded-lg border border-white p-2">
                 {locale == "en" ? "English" : "Español"}

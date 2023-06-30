@@ -8,9 +8,9 @@ import Dots from "./carousel-dots";
 type Props = PropsWithChildren & EmblaOptionsType;
 
 const Carousel = ({ children, ...options }: Props) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center' }, [Autoplay()]);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "center" }, [Autoplay()]);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  
+
   useEffect(() => {
     function selectHandler() {
       const index = emblaApi?.selectedScrollSnap();

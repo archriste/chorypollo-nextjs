@@ -1,205 +1,169 @@
 {
-    "toggle": "Idioma:",
-    "home": {
-        "title_top": "Welcome!",
-        "title_bottom": "¡Bienvenidos!",
-        "carousel_text": "Imagen de:"
+  "toggle": "Idioma:",
+  "home": {
+    "title_top": "Welcome!",
+    "title_bottom": "¡Bienvenidos!",
+    "carousel_text": "Imagen de:"
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "contact": "Contacto"
+  },
+  "links": {
+    "home": "/es/",
+    "menu": "/es/menu/",
+    "contact": "/es/contact/"
+  },
+  "about": {
+    "intro": "¿Quiénes somos?",
+    "p1": "¡Somos Tacos El Chorypollo, el secreto culinario mejor guardado de Des Moines!",
+    "p2": "Siendo un negocio familiar independiente, podemos aseguar que cada platillo está hecho a la medida así como a usted le guste.",
+    "p3": "Creemos en servir comida mexicana casera con los mejores ingredientes. Es por eso que no necesitamos ni anuncios ni alarde; dejamos que los sabores hablen por sí mismos.",
+    "p4": "",
+    "menulink": "¡Haz clic aquí para ver el menú!"
+  },
+  "location": {
+    "hours": "Horas",
+    "week": "Lunes - Jueves",
+    "weekend": "Viernes - Sabado",
+    "locations": "Ubicaciónes"
+  },
+  "menu": {
+    "special": "Especiales",
+    "entree": "Platos",
+    "appetizer": "Aperitivos",
+    "carte": "A la carta",
+    "drink": "Bebidas",
+    "touch": "¡Pulsa para expandir los elementos del menú!"
+  },
+  "specials": [
+    {
+      "name": "Choripollo",
+      "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalada.",
+      "price": "$12.00",
+      "category": "Special",
+      "image": "choripollo",
+      "imageAlt": "Una foto de nuestro choripollo"
     },
-    "nav": {
-        "home": "Inicio",
-        "menu": "Menú",
-        "contact": "Contacto"
-    },
-    "links": {
-        "home": "/es/",
-        "menu": "/es/menu/",
-        "contact": "/es/contact/"
-    },
-    "about": {
-        "intro": "¿Quiénes somos?",
-        "p1": "¡Somos Tacos El Chorypollo, el secreto culinario mejor guardado de Des Moines!",
-        "p2": "Siendo un negocio familiar independiente, podemos aseguar que cada platillo está hecho a la medida así como a usted le guste.",
-        "p3": "Creemos en servir comida mexicana casera con los mejores ingredientes. Es por eso que no necesitamos ni anuncios ni alarde; dejamos que los sabores hablen por sí mismos.",
-        "p4": "",
-        "menulink": "¡Haz clic aquí para ver el menú!"
-    },
-    "location": {
-        "hours": "Horas",
-        "week": "Lunes - Jueves",
-        "weekend": "Viernes - Sabado",
-        "locations": "Ubicaciónes"
-    },
-    "menu": {
-        "special": "Especiales",
-        "entree": "Platos",
-        "appetizer": "Aperitivos",
-        "carte": "A la carta",
-        "drink": "Bebidas",
-        "touch": "¡Pulsa para expandir los elementos del menú!"
-    },
-    "specials": [
-        {
-          "name": "Choripollo",
-          "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalada.",
-          "price": "$12.00",
-          "category": "Special",
-          "image": "choripollo",
-          "imageAlt": "Una foto de nuestro choripollo"
-        },
-        {
-          "name": "Quesabirria",
-          "description": "Tres tacos rellenos de birria y queso derretido decorados con cilantro y acompañados por salsa casera.",
-          "price": "$10.00",
-          "category": "Special",
-          "image": "quesibirria",
-          "imageAlt": "Una foto de nuestra quesabirria"
-        }
+    {
+      "name": "Quesabirria",
+      "description": "Tres tacos rellenos de birria y queso derretido decorados con cilantro y acompañados por salsa casera.",
+      "price": "$10.00",
+      "category": "Special",
+      "image": "quesibirria",
+      "imageAlt": "Una foto de nuestra quesabirria"
+    }
+  ],
+  "carte": [
+    {
+      "name": "Tacos",
+      "description": "Tacos clásicos con carne de elección. Guarnición de cilantro y ajo acompañado por limón y rábano.",
+      "price": "$2.50",
+      "category": "A la carte",
+      "types": [
+        "Asada [+$0.50]",
+        "Birria [+$0.50]",
+        "Al Pastor",
+        "Pollo",
+        "Chorizo",
+        "Chori Pollo",
+        "Lengua",
+        "Tripa"
       ],
-      "carte": [
-        {
-          "name": "Tacos",
-          "description": "Tacos clásicos con carne de elección. Guarnición de cilantro y ajo acompañado por limón y rábano.",
-          "price": "$2.50",
-          "category": "A la carte",
-          "types": [
-            "Asada [+$0.50]",
-            "Birria [+$0.50]",
-            "Al Pastor",
-            "Pollo",
-            "Chorizo",
-            "Chori Pollo",
-            "Lengua",
-            "Tripa"
-          ],
-          "image": "tacos",
-          "imageAlt": "Una foto de nuestros tacos"
-        },
-        {
-          "name": "Tortas",
-          "description": "El sándwich nacional de México con la carne y rellenos que guste. Acompañado por limón.",
-          "price": "$9.00",
-          "category": "A la carte",
-          "types": [
-            "Chori Pollo",
-            "Pollo",
-            "Chorizo",
-            "Asada",
-            "Lengua",
-            "Al Pastor"
-          ]
-        },
-        {
-          "name": "Burrito Grande",
-          "description": "Un burrito grande y abundante, relleno de carne, salsa, lechuga, y crema agria. Acompañado por limón y rábano.",
-          "price": "$12.00",
-          "category": "A la carte",
-          "types": [
-            "Chori Pollo",
-            "Pollo",
-            "Chorizo",
-            "Asada",
-            "Lengua",
-            "Al Pastor"
-          ]
-        },
-        {
-          "name": "Quesadilla",
-          "description": "Una quesadilla clásica rellena de carne de elección y acompañada de arroz.",
-          "price": "$8.00",
-          "category": "A la carte",
-          "types": [
-            "Queso ($5.00)",
-            "Chori Pollo",
-            "Pollo",
-            "Chorizo",
-            "Asada",
-            "Lengua",
-            "Al Pastor"
-          ],
-          "image": "quesadilla",
-          "imageAlt": "Una foto de nuestra quesadilla"
-        }
-      ],
-      "entrees": [
-        {
-          "name": "Happy Burritos",
-          "description": "Dos burritos medianos con carne de elección acompañados por ensalada y arroz.",
-          "price": "$12.00",
-          "category": "Entree",
-          "types": [
-            "Chori Pollo",
-            "Pollo",
-            "Chorizo",
-            "Asada",
-            "Lengua",
-            "Al Pastor"
-          ],
-          "image": "happyburritos",
-          "imageAlt": "Una foto de nuestros happy burritos"
-        },
-        {
-          "name": "Enchiladas Verdes",
-          "description": "Tres enchiladas de pollo con salsa verde acompañadas por ensalada y arroz.",
-          "price": "$11.50",
-          "category": "Entree",
-          "image": "enchiladas",
-          "imageAlt": "Una foto de nuestras enchiladas"
-        },
-        {
-          "name": "Quesadilla Fajita",
-          "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
-          "price": "$11.50",
-          "category": "Entree",
-          "image": "quesadillafajita",
-          "imageAlt": "Una foto de nuestra quesadilla fajita"
-        },
-        {
-          "name": "Chimichanga",
-          "description": "Un burrito frito relleno con la carne que guste, acompañado con ensalada y arroz.",
-          "price": "$12.00",
-          "category": "Entree",
-          "types": [
-            "Chori Pollo",
-            "Pollo",
-            "Chorizo",
-            "Asada",
-            "Lengua",
-            "Al Pastor"
-          ]
-        },
-        {
-          "name": "Pollo Loco",
-          "description": "Pollo marinado con queso y ajo. Acompañado por arroz, ensalada, y pico de gallo.",
-          "price": "$12.00",
-          "category": "Entree"
-        }
-      ],
-      "appetizers": [
-        {
-          "name": "Choripapas",
-          "description": "Una orden de papas fritas cubiertas de chorizo y queso.",
-          "price": "$11.00",
-          "category": "Appetizer",
-          "image": "fries",
-          "imageAlt": "Una foto de nuestras choripapas"
-        },
-        {
-          "name": "Camarones Cucaracha",
-          "description": "Camarones enteros picantes y fritos con mejillones, pepino, y limón.",
-          "price": "$16.00",
-          "category": "Appetizer",
-          "image": "camarones",
-          "imageAlt": "Una foto de nuestros camarones cucaracha"
-        }
-      ],
-      "drinks": [
-        {
-            "name": "Jarritos",
-            "description": "El refresco clásico mexicano!",
-            "price": "$3.00",
-            "category": "Drink",
-            "image": "jarritos",
-            "imageAlt": "Una foto de botellas de jarritos"
-        }
-      ]
+      "image": "tacos",
+      "imageAlt": "Una foto de nuestros tacos"
+    },
+    {
+      "name": "Tortas",
+      "description": "El sándwich nacional de México con la carne y rellenos que guste. Acompañado por limón.",
+      "price": "$9.00",
+      "category": "A la carte",
+      "types": ["Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"]
+    },
+    {
+      "name": "Burrito Grande",
+      "description": "Un burrito grande y abundante, relleno de carne, salsa, lechuga, y crema agria. Acompañado por limón y rábano.",
+      "price": "$12.00",
+      "category": "A la carte",
+      "types": ["Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"]
+    },
+    {
+      "name": "Quesadilla",
+      "description": "Una quesadilla clásica rellena de carne de elección y acompañada de arroz.",
+      "price": "$8.00",
+      "category": "A la carte",
+      "types": ["Queso ($5.00)", "Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"],
+      "image": "quesadilla",
+      "imageAlt": "Una foto de nuestra quesadilla"
+    }
+  ],
+  "entrees": [
+    {
+      "name": "Happy Burritos",
+      "description": "Dos burritos medianos con carne de elección acompañados por ensalada y arroz.",
+      "price": "$12.00",
+      "category": "Entree",
+      "types": ["Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"],
+      "image": "happyburritos",
+      "imageAlt": "Una foto de nuestros happy burritos"
+    },
+    {
+      "name": "Enchiladas Verdes",
+      "description": "Tres enchiladas de pollo con salsa verde acompañadas por ensalada y arroz.",
+      "price": "$11.50",
+      "category": "Entree",
+      "image": "enchiladas",
+      "imageAlt": "Una foto de nuestras enchiladas"
+    },
+    {
+      "name": "Quesadilla Fajita",
+      "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
+      "price": "$11.50",
+      "category": "Entree",
+      "image": "quesadillafajita",
+      "imageAlt": "Una foto de nuestra quesadilla fajita"
+    },
+    {
+      "name": "Chimichanga",
+      "description": "Un burrito frito relleno con la carne que guste, acompañado con ensalada y arroz.",
+      "price": "$12.00",
+      "category": "Entree",
+      "types": ["Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"]
+    },
+    {
+      "name": "Pollo Loco",
+      "description": "Pollo marinado con queso y ajo. Acompañado por arroz, ensalada, y pico de gallo.",
+      "price": "$12.00",
+      "category": "Entree"
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Choripapas",
+      "description": "Una orden de papas fritas cubiertas de chorizo y queso.",
+      "price": "$11.00",
+      "category": "Appetizer",
+      "image": "fries",
+      "imageAlt": "Una foto de nuestras choripapas"
+    },
+    {
+      "name": "Camarones Cucaracha",
+      "description": "Camarones enteros picantes y fritos con mejillones, pepino, y limón.",
+      "price": "$16.00",
+      "category": "Appetizer",
+      "image": "camarones",
+      "imageAlt": "Una foto de nuestros camarones cucaracha"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Jarritos",
+      "description": "El refresco clásico mexicano!",
+      "price": "$3.00",
+      "category": "Drink",
+      "image": "jarritos",
+      "imageAlt": "Una foto de botellas de jarritos"
+    }
+  ]
 }

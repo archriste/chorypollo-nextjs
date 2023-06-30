@@ -193,12 +193,12 @@
   ],
   "drinks": [
     {
-        "name": "Jarritos",
-        "description": "The classic Mexican soda!",
-        "price": "$3.00",
-        "category": "Drink",
-        "image": "jarritos",
-        "imageAlt": "A picture of jarritos bottles"
+      "name": "Jarritos",
+      "description": "The classic Mexican soda!",
+      "price": "$3.00",
+      "category": "Drink",
+      "image": "jarritos",
+      "imageAlt": "A picture of jarritos bottles"
     }
   ]
 }

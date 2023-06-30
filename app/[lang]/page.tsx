@@ -1,6 +1,5 @@
 import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
-import Link from "next/link";
 import Image from "next/image";
 import Header from "./components/header";
 import MainCarousel from "./components/main-carousel";
@@ -13,14 +12,9 @@ import ScrollIndicator from "./components/scroll-indicator";
 
 const images = [tacos, fries, choripollo, quesibirria];
 
-export default async function Home({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
-
+export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
   const dictionary = await getDictionary(lang);
-  
+
   return (
     <>
       {/* Header */}
@@ -33,7 +27,7 @@ export default async function Home({
             id="title"
             className="flex h-[60px] select-none flex-col items-center overflow-hidden lg:h-[72px]"
           >
-            <span className="inline-block w-full animate-title_slide text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:text-[72px] outlined">
+            <span className="outlined inline-block w-full animate-title_slide text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:text-[72px]">
               {dictionary.home.title_top}
               <br />
               {dictionary.home.title_bottom}
@@ -47,26 +41,28 @@ export default async function Home({
 
           {/* Description */}
           <div id="about-us" className="my-10 flex flex-col items-center justify-center lg:mx-20">
-            <span className="p-3 text-center font-londrina_solid text-4xl text-stone-100 sm:w-2/3 lg:text-5xl outlined">
+            <span className="outlined p-3 text-center font-londrina_solid text-4xl text-stone-100 sm:w-2/3 lg:text-5xl">
               {dictionary.about.intro}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
+            <span className="p-3 text-justify font-karla text-lg font-bold text-stone-100 sm:w-2/3 lg:text-2xl">
               {dictionary.about.p1}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
+            <span className="p-3 text-justify font-karla text-lg font-bold text-stone-100 sm:w-2/3 lg:text-2xl">
               {dictionary.about.p2}
             </span>
-            <span className="p-3 text-justify font-karla text-lg text-stone-100 sm:w-2/3 lg:text-2xl font-bold">
+            <span className="p-3 text-justify font-karla text-lg font-bold text-stone-100 sm:w-2/3 lg:text-2xl">
               {dictionary.about.p3}
             </span>
             <div className="outlined mt-5 h-20 w-3/4 border-b border-white border-opacity-0 text-center font-londrina_solid text-4xl text-stone-100 transition hover:border-opacity-100 md:w-1/2 lg:text-5xl">
-              <a href={dictionary.links.menu}>
-                {dictionary.about.menulink}
-              </a>
+              <a href={dictionary.links.menu}>{dictionary.about.menulink}</a>
             </div>
           </div>
           {/* Carousel */}
-          <div id="carousel" className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5" aria-hidden="true">
+          <div
+            id="carousel"
+            className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5"
+            aria-hidden="true"
+          >
             <div className="relative h-full w-full">
               <MainCarousel loop={true}>
                 {images.map((image, key) => {
@@ -89,7 +85,10 @@ export default async function Home({
           </div>
 
           {/* Location */}
-          <div id="locations-and-hours" className="flex flex-col items-center justify-center lg:mt-10">
+          <div
+            id="locations-and-hours"
+            className="flex flex-col items-center justify-center lg:mt-10"
+          >
             <span className="outlined m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.hours}
             </span>
