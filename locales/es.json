@@ -2,7 +2,8 @@
     "toggle": "Idioma:",
     "home": {
         "title_top": "Welcome!",
-        "title_bottom": "¡Bienvenidos!"
+        "title_bottom": "¡Bienvenidos!",
+        "carousel_text": "Imagen de:"
     },
     "nav": {
         "home": "Inicio",
@@ -42,14 +43,16 @@
           "description": "Pollo marinado cubierto de queso fundido y chorizo. Acompañado por arroz y ensalada.",
           "price": "$12.00",
           "category": "Special",
-          "image": "choripollo"
+          "image": "choripollo",
+          "imageAlt": "Una foto de nuestro choripollo"
         },
         {
           "name": "Quesabirria",
           "description": "Tres tacos rellenos de birria y queso derretido decorados con cilantro y acompañados por salsa casera.",
           "price": "$10.00",
           "category": "Special",
-          "image": "quesibirria"
+          "image": "quesibirria",
+          "imageAlt": "Una foto de nuestra quesabirria"
         }
       ],
       "carte": [
@@ -68,7 +71,8 @@
             "Lengua",
             "Tripa"
           ],
-          "image": "tacos"
+          "image": "tacos",
+          "imageAlt": "Una foto de nuestros tacos"
         },
         {
           "name": "Tortas",
@@ -112,7 +116,8 @@
             "Lengua",
             "Al Pastor"
           ],
-          "image": "quesadilla"
+          "image": "quesadilla",
+          "imageAlt": "Una foto de nuestra quesadilla"
         }
       ],
       "entrees": [
@@ -129,21 +134,24 @@
             "Lengua",
             "Al Pastor"
           ],
-          "image": "happyburritos"
+          "image": "happyburritos",
+          "imageAlt": "Una foto de nuestros happy burritos"
         },
         {
           "name": "Enchiladas Verdes",
           "description": "Tres enchiladas de pollo con salsa verde acompañadas por ensalada y arroz.",
           "price": "$11.50",
           "category": "Entree",
-          "image": "enchiladas"
+          "image": "enchiladas",
+          "imageAlt": "Una foto de nuestras enchiladas"
         },
         {
           "name": "Quesadilla Fajita",
           "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
           "price": "$11.50",
           "category": "Entree",
-          "image": "quesadillafajita"
+          "image": "quesadillafajita",
+          "imageAlt": "Una foto de nuestra quesadilla fajita"
         },
         {
           "name": "Chimichanga",
@@ -172,14 +180,16 @@
           "description": "Una orden de papas fritas cubiertas de chorizo y queso.",
           "price": "$11.00",
           "category": "Appetizer",
-          "image": "fries"
+          "image": "fries",
+          "imageAlt": "Una foto de nuestras choripapas"
         },
         {
           "name": "Camarones Cucaracha",
           "description": "Camarones enteros picantes y fritos con mejillones, pepino, y limón.",
           "price": "$16.00",
           "category": "Appetizer",
-          "image": "camarones"
+          "image": "camarones",
+          "imageAlt": "Una foto de nuestros camarones cucaracha"
         }
       ],
       "drinks": [
@@ -188,7 +198,8 @@
             "description": "El refresco clásico mexicano!",
             "price": "$3.00",
             "category": "Drink",
-            "image": "jarritos"
+            "image": "jarritos",
+            "imageAlt": "Una foto de botellas de jarritos"
         }
       ]
 }

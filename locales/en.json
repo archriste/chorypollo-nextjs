@@ -2,7 +2,8 @@
   "toggle": "Language:",
   "home": {
     "title_top": "¡Bienvenidos!",
-    "title_bottom": "Welcome!"
+    "title_bottom": "Welcome!",
+    "carousel_text": "Image of: "
   },
   "nav": {
     "home": "Home",
@@ -42,14 +43,16 @@
       "description": "Marinated chicken smothered in melted cheese and chorizo. Served with rice and salad.",
       "price": "$12.00",
       "category": "Special",
-      "image": "choripollo"
+      "image": "choripollo",
+      "imageAlt": "A picture of choripollo"
     },
     {
       "name": "Quesabirria",
       "description": "Three golden fried tacos made with juicy birria, melted cheese, and cilantro with a delicious house-made dip.",
       "price": "$10.00",
       "category": "Special",
-      "image": "quesibirria"
+      "image": "quesibirria",
+      "imageAlt": "A picture of quesabirria"
     }
   ],
   "carte": [
@@ -68,7 +71,8 @@
         "Lengua (Beef Tongue)",
         "Tripe (Beef Stomach)"
       ],
-      "image": "tacos"
+      "image": "tacos",
+      "imageAlt": "A picture of our tacos"
     },
     {
       "name": "Tortas",
@@ -112,7 +116,8 @@
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
       ],
-      "image": "quesadilla"
+      "image": "quesadilla",
+      "imageAlt": "A picture of a quesadilla"
     }
   ],
   "entrees": [
@@ -129,7 +134,8 @@
         "Lengua (Beef Tongue)",
         "Al Pastor (Pork)"
       ],
-      "image": "happyburritos"
+      "image": "happyburritos",
+      "imageAlt": "A picture of our happy burritos"
     },
     {
       "name": "Enchiladas Verdes",
@@ -143,7 +149,8 @@
       "description": "A quesadilla stuffed with fajita meat and cheese, served with salad and rice.",
       "price": "$11.50",
       "category": "Entree",
-      "image": "quesadillafajita"
+      "image": "quesadillafajita",
+      "imageAlt": "A picture of our quesadilla fajita"
     },
     {
       "name": "Chimichanga",
@@ -172,14 +179,16 @@
       "description": "An order of fresh french fries smothered in cheese and chorizo.",
       "price": "$11.00",
       "category": "Appetizer",
-      "image": "fries"
+      "image": "fries",
+      "imageAlt": "A picture of our choripapas"
     },
     {
       "name": "Camarones Cucaracha",
       "description": "Spicy, fried, shell-on shrimp and mussels garnished with cucumber and lime.",
       "price": "$16.00",
       "category": "Appetizer",
-      "image": "camarones"
+      "image": "camarones",
+      "imageAlt": "A picture of shrimp and mussels"
     }
   ],
   "drinks": [
@@ -188,7 +197,8 @@
         "description": "The classic Mexican soda!",
         "price": "$3.00",
         "category": "Drink",
-        "image": "jarritos"
+        "image": "jarritos",
+        "imageAlt": "A picture of jarritos bottles"
     }
   ]
 }

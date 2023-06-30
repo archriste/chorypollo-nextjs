@@ -41,12 +41,12 @@ export default async function Home({
           </div>
 
           {/* Language select */}
-          <div className="my-8 flex items-center justify-center">
+          <div id="language-selector" className="my-8 flex items-center justify-center">
             <LanguageToggle />
           </div>
 
           {/* Description */}
-          <div className="my-10 flex flex-col items-center justify-center lg:mx-20">
+          <div id="about-us" className="my-10 flex flex-col items-center justify-center lg:mx-20">
             <span className="p-3 text-center font-londrina_solid text-4xl text-stone-100 sm:w-2/3 lg:text-5xl outlined">
               {dictionary.about.intro}
             </span>
@@ -65,9 +65,10 @@ export default async function Home({
               </a>
             </div>
           </div>
-
+          {/* Carousel skip */}
+          <a href="#locations-and-hours" aria-hidden="true">The following is a carousel section with selected images from the menu. Click to skip the carousel</a>
           {/* Carousel */}
-          <div className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5">
+          <div id="carousel" className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5">
             <div className="relative h-full w-full">
               <MainCarousel loop={true}>
                 {images.map((image, key) => {
@@ -78,7 +79,7 @@ export default async function Home({
                     >
                       <Image
                         src={image}
-                        alt="logo"
+                        alt={`A carousel picture of our offerings. Check out the menu to see them all!`}
                         fill
                         className="object-contain"
                       />
@@ -90,7 +91,7 @@ export default async function Home({
           </div>
 
           {/* Location */}
-          <div className="flex flex-col items-center justify-center lg:mt-10">
+          <div id="locations-and-hours" className="flex flex-col items-center justify-center lg:mt-10">
             <span className="outlined m-5 p-3 text-justify font-londrina_solid text-4xl text-stone-100 lg:text-5xl">
               {dictionary.location.hours}
             </span>
