@@ -65,10 +65,8 @@ export default async function Home({
               </a>
             </div>
           </div>
-          {/* Carousel skip */}
-          <a href="#locations-and-hours" aria-hidden="true">The following is a carousel section with selected images from the menu. Click to skip the carousel</a>
           {/* Carousel */}
-          <div id="carousel" className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5">
+          <div id="carousel" className="relative flex flex-col items-center bg-black bg-opacity-20 pt-5" aria-hidden="true">
             <div className="relative h-full w-full">
               <MainCarousel loop={true}>
                 {images.map((image, key) => {
