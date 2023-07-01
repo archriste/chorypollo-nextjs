@@ -99,7 +99,7 @@ export default function MenuItem({ item, key }: { item: any; key: Key }) {
           id="item-image"
           className={`relative h-32 w-32 shrink-0 self-center overflow-hidden rounded-xl border border-black border-opacity-30 transition-all md:h-48 md:w-48 xl:h-56 xl:w-56`}
         >
-          <Image src={imagePicker(item.image)} alt={item.imageAlt} fill />
+          <Image src={imagePicker(item.image)} alt={item.imageAlt} />
         </div>
       ) : null}
     </div>

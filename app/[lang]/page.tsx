@@ -36,7 +36,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
           </div>
 
           {/* Language select */}
-          <div id="language-selector" className="my-8 lg:absolute lg:right-0 lg:top-16">
+          <div id="language-selector" className="my-8 lg:hidden">
             <LanguageToggle />
           </div>
 
@@ -75,8 +75,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                       <Image
                         src={image}
                         alt={`A carousel picture of our offerings. Check out the menu to see them all!`}
-                        fill
-                        className="object-contain"
+                        className="object-cover object-center px-3"
                       />
                     </div>
                   );

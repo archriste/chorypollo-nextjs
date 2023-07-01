@@ -19,10 +19,10 @@ export default function LanguageToggle() {
         return (
           <div
             key={locale}
-            className="opacity-50 transition hover:opacity-100 contrast-more:opacity-100"
+            className="outlined opacity-50 transition hover:opacity-100 contrast-more:opacity-100 lg:opacity-100"
           >
             <Link href={redirectedPathName(locale)} className="active:bg-transparent">
-              <span className="mx-5 rounded-lg border border-white p-2">
+              <span className="mx-5 rounded-lg border border-black p-2 transition lg:border-opacity-30 lg:hover:border-opacity-100">
                 {locale == "en" ? "English" : "Español"}
               </span>
             </Link>
