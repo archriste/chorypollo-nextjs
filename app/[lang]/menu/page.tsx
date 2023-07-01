@@ -11,7 +11,7 @@ export default async function Menu({ params: { lang } }: { params: { lang: Local
     <>
       <Header dictionary={dictionary} />
       <ScrollIndicator>
-        <div className="my-20">
+        <div className="py-20" id="menu">
           <div className="outlined inline-block h-[60px] w-full text-center font-londrina_solid text-[60px] leading-none text-neutral-50 lg:h-[72px] lg:text-[72px]">
             {dictionary.nav.menu}
           </div>

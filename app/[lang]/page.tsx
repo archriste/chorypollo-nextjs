@@ -1,5 +1,6 @@
 import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "./components/header";
 import MainCarousel from "./components/main-carousel";
@@ -21,7 +22,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
       <Header dictionary={dictionary} />
       <ScrollIndicator>
         {/* Main */}
-        <div className="mt-20">
+        <div className="pt-20" id="home">
           {/* Title */}
           <div
             id="title"
@@ -54,7 +55,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
               {dictionary.about.p3}
             </span>
             <div className="outlined mt-5 h-20 w-3/4 border-b border-white border-opacity-0 text-center font-londrina_solid text-4xl text-stone-100 transition hover:border-opacity-100 md:w-1/2 lg:text-5xl">
-              <a href={dictionary.links.menu}>{dictionary.about.menulink}</a>
+              <Link href={`${dictionary.links.menu}#menu`}>{dictionary.about.menulink}</Link>
             </div>
           </div>
           {/* Carousel */}
