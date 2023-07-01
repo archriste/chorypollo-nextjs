@@ -55,7 +55,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
               {dictionary.about.p3}
             </span>
             <div className="outlined mt-5 h-20 w-3/4 border-b border-white border-opacity-0 text-center font-londrina_solid text-4xl text-stone-100 transition hover:border-opacity-100 md:w-1/2 lg:text-5xl">
-              <Link href={`${dictionary.links.menu}#menu`}>{dictionary.about.menulink}</Link>
+              <Link href={`/${dictionary.lang}/menu#menu`}>{dictionary.about.menulink}</Link>
             </div>
           </div>
           {/* Carousel */}
