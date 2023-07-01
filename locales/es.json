@@ -36,6 +36,7 @@
     "appetizer": "Aperitivos",
     "carte": "A la carta",
     "drink": "Bebidas",
+    "dessert": "Postres",
     "touch": "¡Pulsa para expandir los elementos del menú!"
   },
   "specials": [
@@ -56,7 +57,7 @@
       "imageAlt": "Una foto de nuestra quesabirria"
     }
   ],
-  "carte": [
+  "cartes": [
     {
       "name": "Tacos",
       "description": "Tacos clásicos con carne de elección. Guarnición de cilantro y ajo acompañado por limón y rábano.",
@@ -91,7 +92,7 @@
     },
     {
       "name": "Quesadilla",
-      "description": "Una quesadilla clásica rellena de carne de elección y acompañada de arroz.",
+      "description": "Una quesadilla clásica rellena de carne de elección y servida con arroz.",
       "price": "$8.00",
       "category": "A la carte",
       "types": ["Queso ($5.00)", "Chori Pollo", "Pollo", "Chorizo", "Asada", "Lengua", "Al Pastor"],
@@ -119,7 +120,7 @@
     },
     {
       "name": "Quesadilla Fajita",
-      "description": "Una quesadilla rellena con fajitas de carne. Acompañada por ensalada y arroz.",
+      "description": "Una quesadilla rellena con fajitas de carne. Servida con ensalada y arroz.",
       "price": "$11.50",
       "category": "Entree",
       "image": "quesadillafajita",
@@ -134,7 +135,7 @@
     },
     {
       "name": "Pollo Loco",
-      "description": "Pollo marinado con queso y ajo. Acompañado por arroz, ensalada, y pico de gallo.",
+      "description": "Pollo marinado con queso y ajo. Servido por arroz, ensalada, y pico de gallo.",
       "price": "$12.00",
       "category": "Entree"
     }
@@ -155,6 +156,16 @@
       "category": "Appetizer",
       "image": "camarones",
       "imageAlt": "Una foto de nuestros camarones cucaracha"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Churros",
+      "description": "Cuatro churros fritos con crema batida y rocío de chocolate.",
+      "price": "$5.00",
+      "category": "Dessert",
+      "image": "churros",
+      "imageAlt": "Una foto de nuestros churros"
     }
   ],
   "drinks": [

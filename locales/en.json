@@ -36,6 +36,7 @@
     "appetizer": "Appetizers",
     "carte": "A la carte",
     "drink": "Drinks",
+    "dessert": "Desserts",
     "touch": "Tap to expand the menu items!"
   },
   "specials": [
@@ -56,7 +57,7 @@
       "imageAlt": "A picture of quesabirria"
     }
   ],
-  "carte": [
+  "cartes": [
     {
       "name": "Tacos",
       "description": "Classic street tacos with your choice of meat topped with cilantro and onions with chopped lime and radish on the side.",
@@ -191,6 +192,16 @@
       "category": "Appetizer",
       "image": "camarones",
       "imageAlt": "A picture of shrimp and mussels"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Churros",
+      "description": "Four crispy churros served with whipped cream and chocolate drizzle.",
+      "price": "$5.00",
+      "category": "Dessert",
+      "image": "churros",
+      "imageAlt": "A picture of churros"
     }
   ],
   "drinks": [

@@ -12,6 +12,7 @@ import happyburritos from "@/public/happyburritos.jpeg";
 import quesadillafajita from "@/public/quesadillafajita.jpeg";
 import enchiladas from "@/public/enchiladas.jpeg";
 import jarritos from "@/public/jarritos.png";
+import churros from "@/public/churros.jpg";
 
 const images: { [key: string]: StaticImageData } = {
   choripollo: choripollo,
@@ -24,6 +25,7 @@ const images: { [key: string]: StaticImageData } = {
   quesadillafajita: quesadillafajita,
   enchiladas: enchiladas,
   jarritos: jarritos,
+  churros: churros,
 };
 
 const imagePicker = (imageName: string) => {
@@ -97,6 +99,7 @@ export default function MenuItem({ item, key }: { item: any; key: Key }) {
       {item.image ? (
         <div
           id="item-image"
+          aria-hidden="true"
           className={`relative h-32 w-32 shrink-0 self-center overflow-hidden rounded-xl border border-black border-opacity-30 transition-all md:h-48 md:w-48 xl:h-56 xl:w-56`}
         >
           <Image src={imagePicker(item.image)} alt={item.imageAlt} />

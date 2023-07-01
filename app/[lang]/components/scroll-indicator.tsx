@@ -27,7 +27,7 @@ export default function ScrollIndicator({ children }: { children: React.ReactNod
 
   return (
     <>
-      <div className="fixed left-0 top-16 z-10 h-1 w-full bg-white">
+      <div aria-hidden="true" className="fixed left-0 top-16 z-10 h-1 w-full bg-white">
         <div style={inlineStyle}></div>
       </div>
       {children}

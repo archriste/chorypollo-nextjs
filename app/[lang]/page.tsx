@@ -36,7 +36,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
           </div>
 
           {/* Language select */}
-          <div id="language-selector" className="my-8 lg:hidden">
+          <div id="language-selector" aria-hidden="true" className="my-8 lg:hidden">
             <LanguageToggle />
           </div>
 
@@ -113,6 +113,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.8428480344805!2d-93.63776692428542!3d41.59428238313689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee99109adf953f%3A0xdc163346a141041d!2s1330%20Keosauqua%20Way%2C%20Des%20Moines%2C%20IA%2050309!5e0!3m2!1sen!2sus!4v1687746601101!5m2!1sen!2sus"
                   allowFullScreen={false}
+                  aria-hidden="true"
                   width="400"
                   height="300"
                   loading="lazy"
@@ -130,6 +131,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.5670749135165!2d-93.57384012428514!3d41.600247582765476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee9765f869830b%3A0xf9bc93bc3d6c3a1!2s2427%20E%20University%20Ave%2C%20Des%20Moines%2C%20IA%2050317!5e0!3m2!1sen!2sus!4v1687746720058!5m2!1sen!2sus"
                   allowFullScreen={false}
+                  aria-hidden="true"
                   loading="lazy"
                   width="400"
                   height="300"
