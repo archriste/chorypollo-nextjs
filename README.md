@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bienvenidos a Tacos El Chorypollo! 🌮
+### Introduction
+Tacos El Chorypollo is a pair of taco trucks in downtown Des Moines, IA that are well known among the Latino community but up until now have not marketed online. This repo contains the code for the website I built for them to attract new customers and serve as a launching point for expanding brand awareness.
 
-## Getting Started
+## chorypollo.com ([link](https://chorypollo.com))
 
-First, run the development server:
+### Background
+I was tasked with creating a site that matched the general look of the existing Tacos El Chorypollo menu, which has a light green banner on the top and a darker red body with white text overlaid. As company no longer had access to the digital assets (aside from photos) used in its promotional material, new assets were created for use in the website.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Customers viewing a food truck's website are often just looking for the menu and locations, so we kept the content minimal. Furthermore, we wanted to stay true to the character of the business by giving visitors the family-owned look and feel they expected of a local street food spot.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
+- Bilingual support for English and Spanish, defaults to user locale
+- Responsive navbar with prominently displayed logo
+- Carousel with enticing images
+- Locations for both taco trucks with map, address, and contact info
+- Responsive menu with stateful expandable items in mobile view
+- Aria roles for assistive technologies *(to be expanded)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Challenges
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Localization
+At first, I was able to successfully implement middleware to ensure that users received content in their language of preference (as declared by their request headers). However, locale changes done manually on the site did not persist through link navigation. I thought it might have been possible to solve the issue with state or session cookies as others had, but ultimately decided on using the active dictionary to return the correct prefixes for link references. This approach may not be suitable for larger projects with high server load, but works well for our purposes.
 
-## Learn More
+### Technologies
+- **Next.js ([link](https://nextjs.org/))**
+- **Tailwind CSS ([link](https://tailwindcss.com/))**
+- **Embla Carousel ([link](https://www.embla-carousel.com/))**
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Legal
+**The trademarks and logos used in this project (e.g. The Tacos El Chorypollo logo) are the property of Tacos El Chorypollo. Tacos El Chorypollo is not affiliated with any content beyond this repository and does not necessarily endorse the contents of any files contained herein.**
