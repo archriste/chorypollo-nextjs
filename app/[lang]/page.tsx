@@ -36,7 +36,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
           </div>
 
           {/* Language select */}
-          <div id="language-selector" className="my-8 flex items-center justify-center">
+          <div id="language-selector" className="my-8 lg:absolute lg:right-0 lg:top-16">
             <LanguageToggle />
           </div>
 
