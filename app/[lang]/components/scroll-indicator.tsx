@@ -21,13 +21,13 @@ export default function ScrollIndicator({ children }: { children: React.ReactNod
 
   const inlineStyle = {
     height: "6px",
-    background: "#228546",
+    background: "#92eb34",
     width: `${scroll}%`,
   };
 
   return (
     <>
-      <div aria-hidden="true" className="fixed left-0 top-16 z-10 h-1 w-full bg-white">
+      <div aria-hidden="true" className="fixed left-0 top-16 z-10 h-1 w-full bg-red-950">
         <div style={inlineStyle}></div>
       </div>
       {children}
